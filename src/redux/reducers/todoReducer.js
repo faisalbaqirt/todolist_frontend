@@ -42,7 +42,6 @@ import {
           ...state,
           error: action.payload,
         };
-      // Handle other todo-related actions if needed
       default:
         return state;
     }
